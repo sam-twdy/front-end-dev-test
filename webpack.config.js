@@ -35,7 +35,27 @@ module.exports = {
 						}
 					}
 				}]
-			}
+			},
+			{
+				test: /\.(svg)$/,
+				use: [
+				  {
+					loader: 'svg-url-loader',
+					options: {
+					  // make loader to behave like url-loader, for all svg files
+					  encoding: "base64",
+					},
+				  },
+				],
+			},
+			{
+				test:  /\.(jpe?g|png|gif|svg)$/i,
+				loader: 'file-loader',
+				options: {
+					name: 'img/[name].[ext]',
+					publicPath: '/'
+				},
+			},
 		]
 	}
 }

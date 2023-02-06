@@ -10,23 +10,25 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/roostergrin/front-end-dev-test"
+    "url": "git+https://github.com/sam-twdy/front-end-dev-test"
   },
   "author": "Rooster Grin",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/roostergrin/front-end-dev-test/issues"
+    "url": "https://github.com/sam-twdy/front-end-dev-test/issues"
   },
-  "homepage": "https://github.com/roostergrin/front-end-dev-test",
+  "homepage": "https://github.com/sam-twdy/front-end-dev-test",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "jquery": "^3.3.1",
-    "popper.js": "^1.15.0"
+    "popper.js": "^1.15.0",
+    "svg-url-loader": "^7.1.1"
   },
   "devDependencies": {
     "autoprefixer": "^9.5.1",
     "css-loader": "^2.1.1",
     "exports-loader": "^0.7.0",
+    "file-loader": "^6.2.0",
     "html-loader": "^0.5.5",
     "node-sass": "^4.11.0",
     "postcss-loader": "^3.0.0",
