@@ -27,20 +27,23 @@ html,body
 }
 
 .logo {
-    padding-left: 0;
+    margin-left: 50%;
     width: 100%;
     height: auto;
 }
 
-@media (min-width: 576px) {  
+@media (max-width: 992px) { 
     .logo {
-        padding-left: 5vh;
+        margin-left: 5%;
+        width: 75%;
     }
 }
 
-@media (min-width: 992px) { 
+
+@media (max-width: 576px) {  
     .logo {
-        padding-left: 20vh;
+        margin-left: 1%;
+        width: 50%;
     }
 }
 
@@ -50,14 +53,25 @@ html,body
 
 #hero {
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background: url("/img/hero.jpg") top right;
     background-size: cover;
+    background-position: 60%;
 }
 
 .head {
     font-size: 80px;
     color: white;
+}
+
+@media (max-width: 576px) {  
+    .head {
+        font-size: 40px;
+    }
+
+    #hero {
+        height: 70%;
+    }
 }
 
 .outline {
@@ -205,7 +219,7 @@ html,body
 @media (max-width: 992px) { 
     .service-container {
         background-color: #fafafa;
-        padding-left: 5%;
+        padding-left: 10%;
         padding-top: 0%;
 
     
@@ -253,6 +267,10 @@ html,body
     background-size: cover;
     background-position: 50%;
     padding-bottom: 5%;
+
+    .container {
+        margin-right: 3vh;
+    }
 }
 
 /*--------------------------------------------------------------
@@ -276,6 +294,21 @@ html,body
          }
     }
 }
+
+@media (max-width: 768px) {  
+    #referrals {
+
+        .row {
+            .container {
+                padding-top: 10%;
+                padding-bottom: 10%;
+                padding-right: 15%;
+                padding-left: 15%;
+             }
+        }
+    }
+}
+
 .rating{
     font-size: 28px;
     color: #ff7218;
