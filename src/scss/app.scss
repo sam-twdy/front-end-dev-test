@@ -214,6 +214,11 @@ html,body
     margin-top: 30px;
     color: white;
     background: transparent;
+    transition: .2s ease-in-out 0s;
+    &:hover {
+        box-shadow: 0 0 4px #ac5fd1;
+        transform: scale(1.15);
+    }
 }
 
 .service-container {
@@ -366,6 +371,10 @@ html,body
     height: 5vh;
     margin: 1vh;
     filter: invert(21%) sepia(31%) saturate(2165%) hue-rotate(248deg) brightness(96%) contrast(84%);
+    transition: .2s ease-in-out 0s;
+    &:hover {
+        filter: invert(43%) sepia(8%) saturate(5104%) hue-rotate(238deg) brightness(103%) contrast(84%);
+    }
 }
 
 #footer {
