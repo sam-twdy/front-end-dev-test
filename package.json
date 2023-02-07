@@ -6,7 +6,8 @@
   },
   "scripts": {
     "start": "webpack-dev-server --hot --inline",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-prod": "node --max_old_space_size=5048 ./node_modules/@angular/cli/bin/ng build --prod"
   },
   "description": "Test",
   "main": "main.js",
