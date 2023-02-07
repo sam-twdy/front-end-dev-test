@@ -7,6 +7,7 @@
 
     <!-- === Fontawesome -->
     <script src="https://kit.fontawesome.com/8b769a7f73.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
 
   </head>
 
@@ -124,7 +125,7 @@
   <!-- ======= Referrals ======= -->
   <section id="referrals">
       <div class="row">
-        <div class="col-xs-12 col-md-6 container showcase">
+        <div class="col-xs-12 col-lg-6 container showcase">
           <h1 class="subhead-alt">LOREM IPSUM DOLOR SIT AMET</h1>
           <div class="rating">
             <i class="fa-solid fa-star"></i>
@@ -134,10 +135,32 @@
             <i class="fa-solid fa-star"></i>
           </div>
         </div>
-        <div class="col-xs-12 col-md-6 container carousel">
-          <h1 class="subhead">LOREM IPSUM</h1>
-          <div class="content"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </div>
+        <div class="col-xs-12 col-lg-6 container carousel">
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                      <div class="d-flex flex-column swiper-slide">
+                        <span class="name">John Doe 08/08/2022</span>
+                        <br>
+                        <span class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </span>
+                      </div>
+                      <div class="d-flex flex-column swiper-slide">
+                        <span class="name">John Doe 08/08/2022</span>
+                        <br>
+                        <span class="content">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+                      </div>
+                      <div class="d-flex flex-column swiper-slide">
+                        <span class="name">John Doe 08/08/2022</span>
+                        <br>
+                        <span class="content">Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+                      </div>
+                    </div>
+                    <br>
+                  <div class="swiper-pagination"></div>
+                  <div class="swiper-button-prev"></div>
+                  <div class="swiper-button-next"></div>                
+                </div>
+            </div>
+          </div>
   </section>
 
   </main>
@@ -158,7 +181,7 @@
     </div>
   </section>
 
-
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script type="text/javascript" src="bundle.js"></script>
 
   </body>
