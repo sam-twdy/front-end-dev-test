@@ -5,8 +5,10 @@
     "node": "14.16.1"
   },
   "scripts": {
-    "build": "webpack",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "webpack-dev-server --hot --inline",
+    "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "description": "Test",
@@ -20,9 +22,10 @@
   "bugs": {
     "url": "https://github.com/sam-twdy/front-end-dev-test/issues"
   },
-  "homepage": "https://github.com/sam-twdy/front-end-dev-test",
+  "homepage": "https://sam-twdy.github.io/front-end-dev-test/",
   "dependencies": {
     "bootstrap": "^4.3.1",
+    "gh-pages": "^5.0.0",
     "jquery": "^3.3.1",
     "popper.js": "^1.15.0",
     "svg-url-loader": "^7.1.1"
