@@ -13,13 +13,13 @@ Commands to run the build locally:
 
 ### *Please also submit a small write up discussing (leave answers to a sentence or two):*
 
-  What you technologies you used and why (if you only used html, css, and js please explain any templates or frameworks you may have used i.e. bootstrap)
+  What technologies you used and why (if you only used html, css, and js please explain any templates or frameworks you may have used i.e. bootstrap)
 
   1. The technologies I used are those that were provided because I chose to challenge myself by adapting to the given technology, which include webpack, html, scss, js, and bootstrap. I also used svg-url-loader and file-loader to allow the technology to read svg and jpg files. Lastly, I used swiperjs for the carousel, google fonts for styling, and fontawesome for icons that were not provided (the stars for the review rating).
 
   Any struggles you faced when developing with technology you chose
 
-  2. One struggle I faced was learning webpack because I have never interfaced with the technology before and had to learn how to modify webpack.config.js to properly read the svg and jpg files. The second struggle I faced was hosting the project one Heroku or GitPages. I exhausted all the methods I have used in the past (including attempting to update the technology) and was unable to deliver a solution despite continous research on the topic. I know that Rooster Grin has an exceptional team of developers and if I were in a similar situation while working on your team, after exhausting all my knowledge and research, I would consult with the member or members of my team that are experienced in this aspect of the technology to deliver a succesful result and to aquire the tools I need to solve the problem independtily in the future.
+  2. One struggle I faced was learning webpack because I have never interfaced with the technology before and had to learn how to modify webpack.config.js to properly read the svg and jpg files. The second struggle I faced was hosting the project on Heroku or GitPages because the build process would hang indefinitely. I exhausted all the methods I have used in the past (including attempting to update the technology) and was unable to deliver a solution despite continous research on the topic. I know that Rooster Grin has an exceptional team of developers and if I were in a similar situation while working on your team, after exhausting all my knowledge and research, I would consult with the member or members of my team that are experienced in this aspect of the technology to deliver a succesful result and to aquire the tools I need to solve the problem independtily in the future.
 
   What you enjoyed the most and why
 
@@ -27,7 +27,7 @@ Commands to run the build locally:
 
   *What I would do differenly
 
-  4. In the beginning of the project, especially because I used technology that is not up to date and involved unfamiliar tech, I should have attempted to host the app on the preffered hosting service before designing the app. By doing this, I would have recognized the the hosting issue in the beginning and could have switched to a library I'm familiar with, such as ReactJS.
+  4. In the beginning of the project, especially because I used technology that is not up to date and involved unfamiliar tech, I should have attempted to host the app on the preffered hosting service before designing the app. By doing this, I would have recognized the hosting issue in the beginning and could have switched to a library I'm familiar with, such as ReactJS.
 
   Thank you for your time and I hope to hear from you soon!
 
