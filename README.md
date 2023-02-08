@@ -15,7 +15,7 @@ Commands to run the build locally:
 
   What you technologies you used and why (if you only used html, css, and js please explain any templates or frameworks you may have used i.e. bootstrap)
 
-  1. The technologies I used are those that were provided because I chose to challenge myself by adapting to the given technology, which include webpack, html, scss, js, and bootstrap. I also used svg-url-loader and file-loader to allow the technology to read svg and jpg files. Lastly, I used swiperjs for the carousel and fontawesome for icons that were not provided (the stars for the review rating).
+  1. The technologies I used are those that were provided because I chose to challenge myself by adapting to the given technology, which include webpack, html, scss, js, and bootstrap. I also used svg-url-loader and file-loader to allow the technology to read svg and jpg files. Lastly, I used swiperjs for the carousel, google fonts for styling, and fontawesome for icons that were not provided (the stars for the review rating).
 
   Any struggles you faced when developing with technology you chose
 
