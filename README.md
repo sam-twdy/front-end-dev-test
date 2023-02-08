@@ -9,6 +9,7 @@ For this project I used the provided dev server and Node 14.16.1, which I manage
 Commands to run the build locally:
 
   nvm use 14.16.1
+  npm install
   npm start
 
 ### *Please also submit a small write up discussing (leave answers to a sentence or two):*
