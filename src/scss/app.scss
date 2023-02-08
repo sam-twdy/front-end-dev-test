@@ -61,6 +61,8 @@ html,body
 
 .head {
     font-size: 80px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
     color: white;
     animation: text-in 3s;
 }
@@ -95,6 +97,7 @@ html,body
 .btn-about {
     animation: text-in 3s;
     text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-size: 18px;
     letter-spacing: 1px;
@@ -125,11 +128,15 @@ html,body
 }
 
 .content {
+    font-family: 'Poppins', sans-serif;
     font-size: 16px;
+    font-weight: 400;
     padding-bottom: 3vh;
 }
 
 .subhead {
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
     color: #623576;
 }
 
@@ -175,6 +182,7 @@ html,body
 .btn-banner {
     width: fit-content;
     text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-size: 18px;
     letter-spacing: 1px;
@@ -202,6 +210,7 @@ html,body
 
 .btn-service {
     text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-size: 18px;
     letter-spacing: 1px;
@@ -335,9 +344,11 @@ html,body
 
 
 .name{
+    font-family: 'Poppins', sans-serif;
     text-align: center;
     color: #623576;
-    font-size: 18px;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 .swiper {
